@@ -68,8 +68,7 @@ public class AccountService {
 
         transactionRepository.save(transaction);
 
-        logger.info("Transferred {} from account {} to account {}", transferRequestDTO.getAmount(), fromAccount.getAccountNumber(), toAccount.getAccountNumber());
-
+        
         return new TransferResponseDTO("Transfer successful");
     }
 

@@ -52,10 +52,7 @@ To run the application locally, follow these steps:
 
 ## 📖 API Documentation <a name="api-documentation"></a>
 For detailed API documentation, refer to the respective microservice documentation:
-- User Service API
-- Account Service API
-- Fund Transfer Service API
-- Transaction Service API
+- You can see API Documentation here: (API_DOCUMENTATION.md) 
 
 ## ⌚ Future Enhancements <a name="future-enhancements"></a>
 In future updates, we plan to enhance the Banking Application with:

@@ -9,23 +9,23 @@
 6. ⌚ [Future Enhancements](#future-enhancements)
 7. 📞 [Contact Information](#contact-information)
 
-## 🔍 About
+## 🔍 About <a name="about"></a>
 The Banking Application is a robust system built using the Spring Boot framework. It leverages Spring Data JPA for database interactions, Spring Security for authentication and authorization, and PostgreSQL as the database. The application provides essential banking functionalities such as account management, fund transfers, deposits, and withdrawals.
 
-## 🏛️ Architecture
+## 🏛️ Architecture <a name="architecture"></a>
 - **Spring Boot:** The core framework used to build the application.
 - **Spring Data JPA:** Manages data persistence and interactions with the PostgreSQL database.
 - **Spring Security:** Ensures secure authentication and authorization processes.
 - **PostgreSQL:** The relational database used to store application data.
 
-## 🚀 Services
+## 🚀 Services <a name="services"></a>
 The Banking Application consists of several microservices, each handling specific functionalities:
 - **User Service:** Manages user registration, authentication, and profile management.
 - **Account Service:** Handles account operations including creation, management, and transaction histories.
 - **Fund Transfer Service:** Facilitates fund transfer operations between accounts.
 - **Transaction Service:** Records and manages transaction histories for auditing and reporting purposes.
 
-## 🚀 Getting Started
+## 🚀 Getting Started <a name="getting-started"></a>
 To run the application locally, follow these steps:
 
 1. Ensure Java 17 is installed. Download it from the [official Oracle website](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html).
@@ -50,20 +50,20 @@ To run the application locally, follow these steps:
     ./gradlew bootRun
     ```
 
-## 📖 API Documentation
+## 📖 API Documentation <a name="api-documentation"></a>
 For detailed API documentation, refer to the respective microservice documentation:
 - User Service API
 - Account Service API
 - Fund Transfer Service API
 - Transaction Service API
 
-## ⌚ Future Enhancements
+## ⌚ Future Enhancements <a name="future-enhancements"></a>
 In future updates, we plan to enhance the Banking Application with:
 - Enhanced notification system for user alerts and account activities.
 - Introduction of deposit and investment functionalities.
 - Integration with external financial APIs for real-time data updates.
 
-## 📞 Contact Information
+## 📞 Contact Information <a name="contact-information"></a>
 For questions, feedback, or assistance, please contact us:
 - Email: [blabla@bla.com](mailto:blabla@bla.com)
 - WhatsApp: [WhatsApp Number](https://wa.me/number)
